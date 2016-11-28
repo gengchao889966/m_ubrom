@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+/*清空*/
+h1,h2,h3,h4,h5,h6,body,p,ul,ol,dl,dd,input,textarea{ margin:0; padding:0;}
+img{ vertical-align:top; border:none;}
+a{ text-decoration:none; color:#333;}
+li{ list-style:none;}
+input,textarea{outline:none; border:none;}
+textarea{ resize:none;}
+
+/*重用*/
+.fl{ float:left;}
+.fr{ float:right;}
+.clear:after{ content:''; display:block; clear:both;}
+body{ font:12px 'Microsoft yahei';}
+.w{ width:1180px; margin:0 auto;}
